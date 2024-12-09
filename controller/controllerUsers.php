@@ -4,7 +4,6 @@ class controllerUsers{
 
     public function save($data){
         try{
-            echo "e";
             $modelUsers = new modelUsers();
             return $modelUsers->save($data);
 
